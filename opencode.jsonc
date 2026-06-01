@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "web-search": {
+      "type": "local",
+      "command": ["npx", "-y", "@zhafron/mcp-web-search"],
+      "enabled": true
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "-y", "chrome-devtools-mcp@latest", "--headless", "--isolated"],
+      "enabled": true
+    }
+  }
+}
